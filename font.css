@@ -88,6 +88,9 @@
 .t>span{
     color: blue;
 }
+.box3 {
+    font-family: 'NeoDunggeunmo';
+}
 .box3 button{
     text-align: left;
     
@@ -95,7 +98,6 @@
 }
 .box3 a{
     color: white;
-    font-family: 'NeoDunggeunmo';
     font-weight: bolder;
     font-size: larger;
     text-decoration: none;
