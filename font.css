@@ -23,6 +23,7 @@
 .box1 .text2{
     margin-top: 30%;
     text-align: center;
+    font-family: 'NeoDunggeunmo';
 }
 .box2 .text3{
     margin-top : 18px;
@@ -54,9 +55,7 @@
     font-weight: 300;
        
 }
-.text2 {
-    font-family: 'NeoDunggeunmo';
-}
+
 .text4{
     margin-top : 30px;
     margin-left : 12px;
