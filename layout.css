@@ -1,3 +1,11 @@
+* {
+     background-color: rgb(163, 163, 163);
+}
+body{
+      background-image: url('https://s12.gifyu.com/images/pattern.png');
+      background-size: 100px;
+    }
+
 .container1{
     display: flex;
     flex : 0.4;
@@ -212,8 +220,3 @@
 #secret-box {
     display: none;
 }
-body{
-      background-color: rgb(163, 163, 163);
-      background-image: url('https://s12.gifyu.com/images/pattern.png');
-      background-size: 100px;
-    }
