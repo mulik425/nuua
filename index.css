@@ -2,12 +2,6 @@ body{
     background-image: url('https://s12.gifyu.com/images/pattern.png');
     background-color: rgb(163, 163, 163);
     background-size: 100px;
-
-    position: fixed;
-    left:0;
-    top: 0;
-    right: 0;
-    bottom: 0;
 }
 
 .bookcover{
