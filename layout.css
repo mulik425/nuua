@@ -114,10 +114,12 @@
     background-color: black;
 }
 .box3 div:hover{
-    background-color: rgb(71, 86, 227);
+    background-color: white;
+    color: black;
 }
 .box3 div:active{
-    background-color: rgb(71, 86, 227);
+    background-color: white;
+    color: black;
 }
 
 .daybox{
