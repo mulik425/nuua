@@ -2,12 +2,17 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <title>2021 MINI HOMEPAGE</title>
+    <title>AUUA MINI HOMEPAGE</title>
     <link rel ='stylesheet' href = './font.css'/>
     <link rel ='stylesheet' href = './index.css'/>
     <link rel ='stylesheet' href = './layout.css'/>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Single+Day&display=swap');
+        @font-face {
+            font-family: 'NeoDunggeunmo';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/236c80fd67.js" crossorigin="anonymous"></script>
@@ -17,17 +22,17 @@
       <div class="bookdot">
         <div class="page">
           <div class = 'container1'>
-            <div class = 'column1'>TODAY <span>100</span> / TOTAL <span>24142</span></div>
+            <div class = 'column1'>&nbsp;TODAY <span style="color:red">910</span> / TOTAL <span>140910</span></div>
             <div class = 'box1'>
               <img src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjuyXdivwB2zw4OJhA_Tv-Wop4TGeSl88Zncbo2OD4g&s'>
               <div class = 'text1'>မㅣ행ブl 예매 ㅎŁ 번 ṑㅏᥐㅣ㈎ 오Η ØΙ렇ㄱㅔ Ꙕ렵ⓩ┃... ㉰ Ꮣㅐ 탓인 것 같⊂ト...☆ </div>
-              <div class = 'text2'>얼음공듀 황가영 ＼(^0^)/</div>
+              <div class = 'text2'>얼음공듀 이우아 ＼(^0^)/</div>
+              <iframe style="margin: 0 auto;" width="100" height="30" src="http://www.youtube.com/embed/dYIT_jeUBKg?&autoplay=1&loop=1&playlist=dYIT_jeUBKg&showinfo=0&fs=0&vq=auto&rel=0" frameborder="0" allowfullscreen></iframe><br>
               <div class="dropdown">
-                <select title="" onchange="window.open(value,'_self');">
+                <select title="" onchange="if(this.value) window.open(this.value);">
                     <option value="none" selected disabled hidden><a class="dropdown-item" href="#">파도타기</a></option>
-                    <option value="https://codemate.kr/" >코뮤니티로 가기</option>
-                    <option value="https://instagram.com">인스타 가기</option>
-                    <option value="https://zzuzzu-99.tistory.com/">블로그 가기</option>
+                    <option value="https://www.notion.so/_-4cf989046e834f9997e37a4e9119ef4a?pvs=4">누아 소개 노션 가기</option>
+                    <option value="https://www.nuua.ai/ko/">누아 홈페이지 가기</option>
                 </select>
               </div>
             </div>
@@ -35,7 +40,7 @@
           <div class = 'container2'>
             <div class = 'title'>
               <div class = 'column2'>도와줘요 친절한 로봇씨</div>
-              <div class = 'column3'><a href = 'https://mulik425.github.io/nuua/index.html'> 홈페이지 바로 가기</a></div>
+              <div class = 'column3'><a href = 'https://mulik425.github.io/nuua/index.html' style="color:black" target="_blank"> 홈페이지 바로 가기</a></div>
             </div>     
             <div class = 'box2'>
               <div class = 'daybox'>
@@ -80,18 +85,18 @@
               <div class = 'diarybox'>
 
                 <div class = 'dboxs'>
-                    <div class = 'dday'>2020-07-20 수 20:30</div>
+                    <div class = 'dday'>2023-04-10 수 20:30</div>
                     <div class = 'dbox'>
-                        <div>이번달에 친구들이랑 프랑스 여행을 가기로 했다.<br>
+                        <div>다음달에 친구들이랑 프랑스 여행을 가기로 했다.<br>
                         비행기값이 킹왕짱 비싸지만...<br>
                         그래도 루브르 박물관은 가야지!<br>
                         알바 열심히 하면 될거야!<br>
-                        황가영 아자아자 화이팅~~</div>
+                        이우아 아자아자 화이팅~~</div>
                     </div>
                 </div>
 
                 <div class= 'dboxs'>
-                    <div class = 'dday'>2020-07-19 월 21:30</div>
+                    <div class = 'dday'>2023-04-25 화 21:30</div>
                     <div class = 'dbox'>
                         <div>오늘은 알바 마치고<br>
                         고등학교 친구들과 <br>
@@ -102,7 +107,7 @@
                 </div>
 
                 <div class= 'dboxs'>
-                    <div class = 'dday'>2020-07-18 일 12:30</div>
+                    <div class = 'dday'>2023-06-01 목 12:30</div>
                     <div class = 'dbox'>
                         <div>결국 해외 여행은 포기...ㅜㅜ<br>
                         그냥 국내 여행이나 가야지 <br>
@@ -115,7 +120,7 @@
                 <div class = 'button_box'>
                     <button class = 'secret_diary' onclick="getTextFile()"><i class="fa-solid fa-lock">의 비밀 일기보기</i></button>
                     <div class="dboxs" id="secret-box">
-                        <div class="dday">가영이의 비밀 일기</div>
+                        <div class="dday">우아의 비밀 일기</div>
                         <div class="dbox" id="secret-diary"></div>
                     </div>
                 </div>
