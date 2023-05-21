@@ -1,6 +1,5 @@
  body{
-      background-color: rgb(163, 163, 163);
-      background-image: url('https://s12.gifyu.com/images/pattern.png');
+      background-image: url('pattern.png');
       background-size: 100px;
     }
 
