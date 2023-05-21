@@ -27,6 +27,6 @@
     display: flex;
     flex-direction: row;
 }
-.sbox1>div>a:visited {
+.texts>a:visited {
     color: grey;
 }
