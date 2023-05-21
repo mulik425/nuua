@@ -113,11 +113,11 @@
     padding-top: 20px;
 }
 .box3>div{
+    margin-top : 15px;
+    padding: 7px;
     font-size: 13px;
     border-radius: 0px 5px 5px 0px;
     background-color: #3B87AB;
-    margin-top : 15px;
-    padding: 7px;
 }
 .box3 a:link{color : white}
 
@@ -171,7 +171,6 @@
     margin-top : 5.5rem;
     height: 70%;
 }
-
 
 .dboxs{
     width: 100%;
