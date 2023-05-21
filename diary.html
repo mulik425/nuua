@@ -117,7 +117,7 @@
                 </div>
                 
                 <div class = 'button_box'>
-                    <button class = 'secret_diary' onclick="getTextFile('secret.txt')"><i class="fa-solid fa-lock">우아의 비밀 일기 보기</i></button>
+                    <button class = 'secret_diary' onclick="getTextFile()"><i class="fa-solid fa-lock">우아의 비밀 일기 보기</i></button>
                     <div class="dboxs" id="secret-box">
                         <div class="dday">우아의 비밀 일기</div>
                         <div class="dbox" id="secret-diary"></div>
@@ -144,7 +144,7 @@
         input.type = "file";
         input.accept = "text/plain";
         input.onchange = function (event) {
-          processFile(event.target.files[0]);
+          processFile('secret.txt');
         };
         input.click();
       }
