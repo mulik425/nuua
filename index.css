@@ -1,5 +1,5 @@
 .bookcover{
-    background-color: rgba(180, 208, 218, 0.968);
+    background-color: rgba(140, 210, 250, 0.968);
     border-radius: 9px;
     border : 1px solid rgb(35, 196, 241);
     width: 960px;
@@ -18,7 +18,7 @@
 }
 .page{
     position: absolute;
-    background-color: rgba(200, 200, 200, 0.607);
+    background-color: rgba(228, 244, 252, 0.607);
     top : 10.5px;
     left : 10.5px;
     border-radius: 8px;
