@@ -115,8 +115,7 @@
 .box3>div{
     font-size: 13px;
     border-radius: 0px 5px 5px 0px;
-    background-color: rgb(154, 157, 234);
-    margin-top : 15px;
+    background-color: #3B87AB;
     padding: 7px;
 }
 .box3 a:link{color : white}
