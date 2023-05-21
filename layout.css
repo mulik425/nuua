@@ -182,20 +182,20 @@
 }
 .dday{
     color : rgb(71, 71, 236);
-    font-family: 'Dongle',cursive;
+    font-family: font-family: 'NeoDunggeunmo';
     margin-top: 15px;
     font-size: 24px;
     margin-left : 8px;
 }
 .dbox{
-    font-family: 'Single Day',cursive;
+    font-family:'NeoDunggeunmo';
     text-align: center;
     font-size : 25px;
     margin-top: 10px;
     margin-bottom: 40px;
 }
 .button_box{
-    font-family: 'Single Day' ,cursive;
+    font-family: 'NeoDunggeunmo';
 
 }
 .secret_diary{
@@ -211,7 +211,7 @@
     display: block;  
 }
 .secret_diary:hover{
-    background-color: rgba(140, 210, 250, 0.968);
+    background-color: #9DD5F6;
     color : white;
     border : none;
 }
