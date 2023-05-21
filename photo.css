@@ -60,6 +60,7 @@
 }
 .box2>img {
     object-fit:contain;
+    margin-bottom: 15px;
 }
 .container3{
     flex:0.2;
