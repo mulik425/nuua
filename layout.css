@@ -211,7 +211,7 @@
     display: block;  
 }
 .secret_diary:hover{
-    background-color: cadetblue;
+    background-color: rgba(140, 210, 250, 0.968);
     color : white;
     border : none;
 }
