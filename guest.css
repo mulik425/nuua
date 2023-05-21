@@ -94,14 +94,14 @@
 .guest_title{
     margin-top: 25px;
     margin-bottom: 15px;
-    margin-left : 10px;
+    margin-left : 20px;
     background-color: rgba(128, 128, 128, 0.925);
     font-size: 15px;
     font-weight: bolder;
     width: 90%;
 }
 .guest_content{
-    margin-left : 10px;
+    margin-left : 20px;
     display: flex;
     width: 90%;
     text-align: center;
