@@ -97,9 +97,11 @@
     background-color: rgba(128, 128, 128, 0.925);
     font-size: 15px;
     font-weight: bolder;
+    width: 90%;
 }
 .guest_content{
     display: flex;
+    width: 90%;
 
 }
 .guest_background{
