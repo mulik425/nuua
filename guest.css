@@ -130,8 +130,10 @@
 .guest_title span{
     color: blue;
     font-family: 'NeoDunggeunmo';
+    font-size: 15px;
 }
 .guest_post{
     font-size: 20px;
     font-family: 'NeoDunggeunmo';
+    font-size: 15px;
 }
