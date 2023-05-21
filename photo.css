@@ -58,6 +58,9 @@
     margin-bottom: 10px;
     overflow: auto;
 }
+.box2>img {
+    object-fit:contain;
+}
 .container3{
     flex:0.2;
     width : 60%;
