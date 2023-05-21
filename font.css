@@ -132,6 +132,13 @@
 .today{
     color: rgba(39, 142, 245, 0.804);
 }
+.dday {
+    font-family:'NeoDunggeunmo';
+    font-size: 15px;
+}
+.dbox {
+    font-size: 12px;
+}
 .title{
     font-family: 'NeoDunggeunmo';
 }
