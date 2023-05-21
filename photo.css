@@ -109,22 +109,15 @@
     padding-top: 20px;
 }
 .box3>div{
-    font-size: 13px;
-    border-radius: 0px 5px 5px 0px;
-    background-color: rgb(154, 157, 234);
     margin-top : 15px;
     padding: 7px;
+    font-size: 13px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #3B87AB;
 }
-.box3 a:link{color : white}
 
-
-.box3 a:visited{
-    background-color: black;
-}
 .box3 div:hover{
-    background-color: rgb(71, 86, 227);
-}
-.box3 div:active{
-    background-color: rgb(71, 86, 227);
+    background-color: white;
+    color: black;
 }
 
