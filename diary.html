@@ -118,7 +118,7 @@
                 </div>
                 
                 <div class = 'button_box'>
-                    <button class = 'secret_diary' onclick="processFile('secret.txt')"><i class="fa-solid fa-lock">우아의 비밀 일기 보기</i></button>
+                    <button class = 'secret_diary' onclick="processFile(url('secret.txt'))"><i class="fa-solid fa-lock">우아의 비밀 일기 보기</i></button>
                     <div class="dboxs" id="secret-box">
                         <div class="dday">우아의 비밀 일기</div>
                         <div class="dbox" id="secret-diary"></div>
@@ -140,15 +140,6 @@
       </div>
     </div>
     <script>
-          function getTextFile() {
-        var input = document.createElement("input");
-        input.type = "file";
-        input.accept = "text/plain";
-        processFile('secret.txt');
-        input.click();
-      }
-
-
       function processFile(file) {
         var reader = new FileReader();
         reader.readAsText(file, "utf-8");
